@@ -45,7 +45,11 @@ namespace BookstoreApi.Controllers
             return NoContent();
         }
 
-        
+        [HttpPut]
+        public IActionResult UpdateBook(Book book)
+        {
+            return Ok(_bookServices.UpdateBook(book));
+        }
 
 
     }
