@@ -35,7 +35,18 @@ namespace BookstoreApi.Controllers
         public IActionResult AddBook(Book book)
         {
             _bookServices.AddBook(book);
-            return Ok(book);
+            return CreatedAtRoute("GetBook", new { id = book._id}, book);
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteBook(string id)
+        {
+            _bookServices.DeleteBook(id);
+            return NoContent();
+        }
+
+        
+
+
     }
 }

@@ -24,8 +24,20 @@ namespace Bookstore.AppService
             return book;
         }
 
+        public void DeleteBook(string id)
+        {
+            _books.DeleteOne(book => book._id == id);
+        }
+
         public Book GetBook(string id) => _books.Find(book => book._id == id).First();
 
         public List<Book> GetBooks() => _books.Find(book => true).ToList();
+
+        public Book UpdateBook(Book book)
+        {
+            GetBook(book._id);
+            _books.ReplaceOne(b => b._id == book._id, book);
+            return book;
+        }
     }
 }
