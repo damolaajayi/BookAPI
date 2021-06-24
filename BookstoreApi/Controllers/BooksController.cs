@@ -1,4 +1,5 @@
 ﻿using Bookstore.AppService;
+using Bookstore.Core.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -22,6 +23,19 @@ namespace BookstoreApi.Controllers
         public IActionResult GetBooks()
         {
             return Ok(_bookServices.GetBooks());
+        }
+
+        [HttpGet("{id}", Name ="GetBook")]
+        public IActionResult GetBook(string id)
+        {
+            return Ok(_bookServices.GetBook(id));
+        }
+
+        [HttpPost]
+        public IActionResult AddBook(Book book)
+        {
+            _bookServices.AddBook(book);
+            return Ok(book);
         }
     }
 }

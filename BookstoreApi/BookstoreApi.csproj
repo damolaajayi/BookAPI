@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Bookstore.AppService\Bookstore.AppService\Bookstore.AppService.csproj" />
     <ProjectReference Include="..\Bookstore.Core\Bookstore.Core\Bookstore.Core.csproj" />
+    <ProjectReference Include="..\Bookstore.Repo\Bookstore.Repository\Bookstore.Repository.csproj" />
   </ItemGroup>
 
 </Project>

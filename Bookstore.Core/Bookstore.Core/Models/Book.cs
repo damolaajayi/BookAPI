@@ -11,8 +11,7 @@ namespace Bookstore.Core.Models
     public class Book
     {
         [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        public string _id { get; set; }
 
         [BsonElement("Name")]
         public string Name { get; set; }

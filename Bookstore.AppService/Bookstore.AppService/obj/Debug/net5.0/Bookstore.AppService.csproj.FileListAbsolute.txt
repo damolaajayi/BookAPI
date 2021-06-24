@@ -3,7 +3,9 @@ C:\Users\User\source\repos\Bookstore\src\Bookstore.AppService\Bookstore.AppServi
 C:\Users\User\source\repos\Bookstore\src\Bookstore.AppService\Bookstore.AppService\bin\Debug\net5.0\ref\Bookstore.AppService.dll
 C:\Users\User\source\repos\Bookstore\src\Bookstore.AppService\Bookstore.AppService\bin\Debug\net5.0\Bookstore.AppService.pdb
 C:\Users\User\source\repos\Bookstore\src\Bookstore.AppService\Bookstore.AppService\bin\Debug\net5.0\Bookstore.Core.dll
+C:\Users\User\source\repos\Bookstore\src\Bookstore.AppService\Bookstore.AppService\bin\Debug\net5.0\Bookstore.Repository.dll
 C:\Users\User\source\repos\Bookstore\src\Bookstore.AppService\Bookstore.AppService\bin\Debug\net5.0\Bookstore.Core.pdb
+C:\Users\User\source\repos\Bookstore\src\Bookstore.AppService\Bookstore.AppService\bin\Debug\net5.0\Bookstore.Repository.pdb
 C:\Users\User\source\repos\Bookstore\src\Bookstore.AppService\Bookstore.AppService\obj\Debug\net5.0\Bookstore.AppService.csproj.AssemblyReference.cache
 C:\Users\User\source\repos\Bookstore\src\Bookstore.AppService\Bookstore.AppService\obj\Debug\net5.0\Bookstore.AppService.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\source\repos\Bookstore\src\Bookstore.AppService\Bookstore.AppService\obj\Debug\net5.0\Bookstore.AppService.AssemblyInfoInputs.cache

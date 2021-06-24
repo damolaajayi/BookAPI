@@ -43,3 +43,5 @@ C:\Users\User\source\repos\Bookstore\src\BookstoreApi\obj\Debug\net5.0\Bookstore
 C:\Users\User\source\repos\Bookstore\src\BookstoreApi\obj\Debug\net5.0\ref\BookstoreApi.dll
 C:\Users\User\source\repos\Bookstore\src\BookstoreApi\obj\Debug\net5.0\BookstoreApi.pdb
 C:\Users\User\source\repos\Bookstore\src\BookstoreApi\obj\Debug\net5.0\BookstoreApi.genruntimeconfig.cache
+C:\Users\User\source\repos\Bookstore\src\BookstoreApi\bin\Debug\net5.0\Bookstore.Repository.dll
+C:\Users\User\source\repos\Bookstore\src\BookstoreApi\bin\Debug\net5.0\Bookstore.Repository.pdb

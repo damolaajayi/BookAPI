@@ -30,6 +30,9 @@
             "projectReferences": {
               "C:\\Users\\User\\source\\repos\\Bookstore\\src\\Bookstore.Core\\Bookstore.Core\\Bookstore.Core.csproj": {
                 "projectPath": "C:\\Users\\User\\source\\repos\\Bookstore\\src\\Bookstore.Core\\Bookstore.Core\\Bookstore.Core.csproj"
+              },
+              "C:\\Users\\User\\source\\repos\\Bookstore\\src\\Bookstore.Repo\\Bookstore.Repository\\Bookstore.Repository.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Bookstore\\src\\Bookstore.Repo\\Bookstore.Repository\\Bookstore.Repository.csproj"
               }
             }
           }
@@ -151,7 +154,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\User\\source\\repos\\Bookstore\\src\\Bookstore.Core\\Bookstore.Core\\Bookstore.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\Bookstore\\src\\Bookstore.Core\\Bookstore.Core\\Bookstore.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -164,6 +171,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.12.4, )"
